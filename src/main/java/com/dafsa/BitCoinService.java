@@ -21,9 +21,11 @@ import java.util.stream.Collectors;
 /**
  * Demonstrate requesting OrderBook from Bitstamp and plotting it using XChart.
  */
-public class DepthChart {
+public class BitCoinService {
 
-    public static void main(String[] args) throws IOException {
+    private static final CurrencyPair CURRENCY = CurrencyPair.BTC_EUR;
+
+    public static List<BigDecimal> getOrders() throws IOException {
 
         // Use the factory to get the version 1 Bitstamp exchange API using default settings
         Exchange bitstampExchange = ExchangeFactory.INSTANCE.createExchange(BitstampExchange.class.getName());
@@ -32,15 +34,12 @@ public class DepthChart {
         MarketDataService marketDataService = bitstampExchange.getMarketDataService();
 
         // Get the current orderbook
-        OrderBook orderBook = marketDataService.getOrderBook(CurrencyPair.BTC_USD);
+        OrderBook orderBook = marketDataService.getOrderBook(CURRENCY);
 
         List<BigDecimal> orders = orderBook.getBids().stream()
                 .map( bid -> bid.getTradableAmount() )
                 .collect(Collectors.toList());
 
-
-        System.out.print(orders);
-
+        return orders;
     }
-
 }
