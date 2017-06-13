@@ -1,0 +1,450 @@
+21:51:42.538 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:51:42.607 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:51:43.495 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+21:51:43.719 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+21:51:43.721 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+21:52:45.390 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:52:45.392 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:52:45.400 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+21:52:45.401 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+21:52:45.402 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+21:53:45.593 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:53:45.594 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:53:45.601 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+21:53:45.603 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+21:53:45.603 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+21:54:43.293 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:54:43.298 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:54:43.608 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+21:54:43.659 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+21:54:43.662 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+21:54:45.856 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:54:45.857 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:54:45.866 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+21:54:45.868 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+21:54:45.869 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+21:55:44.517 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:55:44.518 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:55:44.528 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+21:55:44.529 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+21:55:44.530 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+21:55:46.004 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:55:46.005 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:55:46.012 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+21:55:46.013 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+21:55:46.014 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+21:56:46.162 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:56:46.163 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:56:46.175 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+21:56:46.176 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+21:56:46.177 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+21:57:46.511 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:57:46.512 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:57:46.520 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+21:57:46.522 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+21:57:46.522 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+21:58:46.704 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:58:46.704 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:58:46.711 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+21:58:46.713 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+21:58:46.714 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+21:59:46.864 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:59:46.865 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+21:59:46.874 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+21:59:46.877 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+21:59:46.877 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:00:47.033 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:00:47.034 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:00:47.041 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:00:47.042 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:00:47.044 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:01:47.225 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:01:47.226 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:01:47.231 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:01:47.232 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:01:47.233 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:02:47.452 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:02:47.453 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:02:47.461 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:02:47.462 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:02:47.463 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:03:47.707 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:03:47.708 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:03:47.714 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:03:47.715 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:03:47.717 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:04:47.885 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:04:47.886 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:04:47.894 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:04:47.895 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:04:47.896 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:05:48.057 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:05:48.058 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:05:48.074 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:05:48.098 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:05:48.098 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:06:48.241 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:06:48.242 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:06:48.249 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:06:48.251 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:06:48.252 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:07:49.439 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:07:49.440 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:07:49.447 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:07:49.448 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:07:49.448 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:08:49.586 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:08:49.586 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:08:49.592 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:08:49.593 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:08:49.594 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:09:50.659 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:09:52.184 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:09:58.243 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:10:02.921 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:10:06.305 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:11:35.213 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:11:44.273 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:11:54.970 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:12:07.063 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:12:12.021 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:13:12.614 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:13:12.616 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:13:12.626 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:13:12.628 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:13:12.629 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:14:12.869 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:14:12.870 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:14:12.877 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:14:12.878 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:14:12.879 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:15:13.101 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:15:13.101 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:15:13.107 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:15:13.109 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:15:13.109 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:16:13.292 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:16:13.293 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:16:13.300 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:16:13.302 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:16:13.303 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:17:13.504 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:17:13.505 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:17:13.510 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:17:13.510 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:17:13.511 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:18:14.049 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:18:14.050 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:18:14.057 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:18:14.059 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:18:14.060 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:19:14.306 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:19:14.307 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:19:14.314 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:19:14.316 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:19:14.316 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:20:14.568 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:20:14.569 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:20:14.576 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:20:14.577 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:20:14.578 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:21:14.915 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:21:14.915 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:21:14.923 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:21:14.924 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:21:14.925 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:22:15.220 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:22:15.221 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:22:15.228 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:22:15.229 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:22:15.230 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:23:15.638 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:23:15.639 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:23:15.645 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:23:15.647 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:23:15.648 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:24:15.790 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:24:15.790 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:24:15.795 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:24:15.796 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:24:15.797 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:25:15.996 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:25:15.997 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:25:16.002 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:25:16.003 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:25:16.004 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:26:16.463 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:26:16.464 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:26:16.476 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:26:16.477 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:26:16.477 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:27:16.978 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:27:16.994 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:27:17.008 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:27:17.036 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:27:17.048 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:28:20.634 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:28:20.668 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:28:22.253 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:28:25.272 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:28:28.803 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:29:43.243 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:29:48.940 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:29:54.552 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:30:01.640 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:30:07.596 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:31:27.208 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:31:31.709 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:31:37.304 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:31:43.036 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:31:48.737 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:33:04.763 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:33:12.761 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:33:20.106 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:33:28.752 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:33:37.871 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:34:57.338 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:34:57.738 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:34:58.235 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:34:58.568 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:34:59.153 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:35:59.673 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:35:59.674 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:35:59.753 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:35:59.814 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:35:59.815 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:37:00.087 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:37:00.088 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:37:00.101 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:37:00.103 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:37:00.105 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+22:38:01.278 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:38:01.309 Dafsa-ntb [Thread-0] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+22:38:01.335 Dafsa-ntb [Thread-0] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+22:38:01.354 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+22:38:01.388 Dafsa-ntb [Thread-0] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 

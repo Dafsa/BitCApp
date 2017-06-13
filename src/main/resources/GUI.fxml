@@ -9,30 +9,13 @@
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="741.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="741.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController">
   <tabs>
-    <Tab text="Spread (XBT/EUR)">
-      <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-               <children>
-                  <LineChart layoutX="14.0" layoutY="14.0" prefHeight="466.0" prefWidth="703.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
-                    <xAxis>
-                      <CategoryAxis side="BOTTOM" />
-                    </xAxis>
-                    <yAxis>
-                      <NumberAxis side="LEFT" />
-                    </yAxis>
-                  </LineChart>
-                  <Button layoutX="646.0" layoutY="477.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" text="Exit" />
-                  <Button layoutX="15.0" layoutY="477.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" text="Refresh" />
-               </children></AnchorPane>
-      </content>
-    </Tab>
     <Tab text="Depth (XBT/EUR)">
       <content>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                  <AreaChart layoutX="14.0" layoutY="14.0" prefHeight="463.0" prefWidth="706.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+                  <AreaChart fx:id="depth_chart" layoutX="14.0" layoutY="14.0" prefHeight="463.0" prefWidth="706.0" title="Depth chart" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
                     <xAxis>
                       <CategoryAxis side="BOTTOM" />
                     </xAxis>
@@ -40,8 +23,25 @@
                       <NumberAxis side="LEFT" />
                     </yAxis>
                   </AreaChart>
-                  <Button layoutX="646.0" layoutY="473.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" text="Exit" />
-                  <Button layoutX="15.0" layoutY="473.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" text="Refresh" />
+                  <Button fx:id="Ex_butt_depth" layoutX="646.0" layoutY="474.0" mnemonicParsing="false" onMouseClicked="#Ex_butt_depth_click" prefHeight="40.0" prefWidth="80.0" text="Exit" />
+                  <Button fx:id="Ref_butt_depth" layoutX="15.0" layoutY="474.0" mnemonicParsing="false" onMouseClicked="#Ref_butt_depth_click" prefHeight="40.0" prefWidth="80.0" text="Refresh" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Spread (XBT/EUR)">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <LineChart fx:id="spread_chart" layoutX="14.0" layoutY="14.0" prefHeight="466.0" prefWidth="703.0" title="Spread chart" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+                    <xAxis>
+                      <CategoryAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis side="LEFT" />
+                    </yAxis>
+                  </LineChart>
+                  <Button fx:id="Ex_butt_spread_click" layoutX="646.0" layoutY="474.0" mnemonicParsing="false" onMouseClicked="#Ex_butt_spread_click" prefHeight="40.0" prefWidth="80.0" text="Exit" />
+                  <Button fx:id="Ref_butt_spread" layoutX="15.0" layoutY="474.0" mnemonicParsing="false" onMouseClicked="#Ref_butt_spread_click" prefHeight="40.0" prefWidth="80.0" text="Refresh" />
                </children></AnchorPane>
       </content>
     </Tab>
