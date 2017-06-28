@@ -18,6 +18,7 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;
+import javafx.scene.chart.XYChart;
 
 
 /**
@@ -62,6 +63,13 @@ public class GUIController implements Initializable {
 
     @FXML
     private void Ref_butt_spread_click(MouseEvent event) {
+    }
+    
+    public void setLineData(List<BigDecimal> orders) {
+        XYChart.Series series = new XYChart.Series();
+        series.setName("My Test Data");
+
+        spread_chart.getData().add(series);
     }
     
 }
