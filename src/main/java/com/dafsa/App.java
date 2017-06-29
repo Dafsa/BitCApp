@@ -21,7 +21,7 @@ import javassist.Loader;
  *
  * @author Dafsa
  */
-public class App 
+public class App extends Application
 {
     private static final Logger logg = Logger.getLogger(App.class);
 
@@ -53,9 +53,9 @@ public class App
 
         logg.info("Starting BitCApp");
 
-        Runnable updateOrdersRunnable = () -> {
-            //TODO Fix better stop mechanism from Java FX
-            while (true) {
+        Runnable updateOrdersRunnable = new Runnable() {
+            @Override
+            public void run() {
                 
                 try {
                     
@@ -70,16 +70,11 @@ public class App
                 } catch (InterruptedException | IOException e) {
                     logg.error(e);
                 }
-
+                throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.    
                 
             }
         };
-
-
         Thread ordersThread = new Thread(updateOrdersRunnable);
         ordersThread.start();
-
-
     }
-    
 }

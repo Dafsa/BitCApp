@@ -14,8 +14,6 @@ import javafx.scene.chart.AreaChart;
 import javafx.scene.chart.LineChart;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
-import org.apache.log4j.Logger;
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;
 import javafx.scene.chart.XYChart;
