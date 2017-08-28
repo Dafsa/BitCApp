@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
  * Demonstrate requesting OrderBook from Bitstamp and plotting it using XChart.
  */
 public class BitCoinService {
-
+    
     private static final CurrencyPair CURRENCY = CurrencyPair.BTC_EUR;
 
     public static List<BigDecimal> getOrders() throws IOException {

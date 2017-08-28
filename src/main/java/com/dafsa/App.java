@@ -15,6 +15,10 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;
+import javafx.collections.ObservableList;
+import javafx.scene.Node;
+import javafx.scene.chart.AreaChart;
+import javafx.scene.chart.XYChart;
 import javassist.Loader;
 
 /**
@@ -25,56 +29,29 @@ public class App extends Application
 {
     private static final Logger logg = Logger.getLogger(App.class);
 
-    public static void onUpdateOrders (List<BigDecimal> orders ) {
-                
-        FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(App.class.getResource("GUI.fxml"));
-        GUIController controller = loader.getController();
-        controller.setLineData(orders);
-        
-        //Upudate the chart with JavaFX!!!!!!
-        //TODO David
-    }
-
+    private static Parent root = null;
+    
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("GUI.fxml"));
+        
+        root = FXMLLoader.load(getClass().getClassLoader().getResource("GUI.fxml"));
 
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
-        stage.show();  
+        stage.show();
+        
     }
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        launch(args);
-
+    public static void main(String[] args) throws IOException {
+        
         logg.info("Starting BitCApp");
 
-        Runnable updateOrdersRunnable = new Runnable() {
-            @Override
-            public void run() {
-                
-                try {
-                    
-                    logg.info("Getting new orders....");
-                    
-                    List<BigDecimal> orders = BitCoinService.getOrders();
-                    onUpdateOrders(orders);
-                    Thread.sleep(1000 * 10);
-                    
-                    logg.info("New orders received.");
-                    
-                } catch (InterruptedException | IOException e) {
-                    logg.error(e);
-                }
-                throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.    
-                
-            }
-        };
-        Thread ordersThread = new Thread(updateOrdersRunnable);
-        ordersThread.start();
+        
+        launch(args);
+
+
     }
 }
