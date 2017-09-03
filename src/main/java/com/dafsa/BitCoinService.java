@@ -72,12 +72,17 @@ public class BitCoinService {
             asks = asks.add(orders.getVolume());
             askDepthSeries.getData().add(new XYChart.Data(orders.getPrice().doubleValue(),asks));
         }
+        Integer depthXmin = dataDepth.getBids().stream().map( bid -> bid.getPrice().intValue()).min(Integer::compare).get();
+        Integer depthXmax = dataDepth.getAsks().stream().map( bid -> bid.getPrice().intValue()).max(Integer::compare).get();
+        
         
         OrdersBean allSeries = new OrdersBean();
         allSeries.setAskDepthSeries(askDepthSeries);
         allSeries.setBidsDepthSeries(bidsDepthSeries);
         allSeries.setBuySpreadSeries(buySpreadSeries);
         allSeries.setSellSpreadSeries(sellSpreadSeries);
+        allSeries.setMinBidsDepth(depthXmin.doubleValue());
+        allSeries.setMaxAskDepth(depthXmax.doubleValue());
         
         return allSeries;
     }

@@ -79,6 +79,8 @@ public class GUIController implements Initializable {
     @FXML
     private Button Ref_butt_spread;
     
+    private OrdersBean dataAll;
+    
     //Button handlers
     @FXML
     private void Ex_butt_depth_click(MouseEvent event) {
@@ -110,9 +112,7 @@ public class GUIController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         
         logger.info("Initializing FMX...");
-        //Initialize Charts
-//        ChartInitSpread();
-//        ChartInitDepth();
+
         
         Thread tr = new Thread(new GUIUpdater());
         tr.start();
@@ -127,24 +127,32 @@ public class GUIController implements Initializable {
             public void run() {
                 
                 try {
-                    OrdersBean dataAll = BitCoinService.getSeries();
-                    logg.info("Getting new orders....");
                     
-                    //Feed charts with data
+                    
                     Platform.runLater(new Runnable(){
                         @Override
                         public void run() {
-                            //Clear out charts 
-                            depth_chart.getData().clear();
-                            spread_chart.getData().clear();
-                            
-                            //Depth chart
-                            depth_chart.getData().addAll(dataAll.getBidsDepthSeries(),dataAll.getAskDepthSeries());
-                            
-                            //Spread chart
-                            
-                           spread_chart.getData().addAll(dataAll.getBuySpreadSeries(),dataAll.getSellSpreadSeries());
-                           throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+                            try {
+                                //Feed charts with data
+                                dataAll = BitCoinService.getSeries();
+                                
+                                //Initialize Charts
+                                ChartInitSpread();
+                                ChartInitDepth();
+                                logg.info("Getting new orders....");
+                                //Clear out charts
+                                depth_chart.getData().clear();
+                                spread_chart.getData().clear();
+                                
+                                //Depth chart
+                                depth_chart.getData().addAll(dataAll.getBidsDepthSeries(),dataAll.getAskDepthSeries());
+                                
+                                //Spread chart
+
+                                spread_chart.getData().addAll(dataAll.getBuySpreadSeries(),dataAll.getSellSpreadSeries());
+                            } catch (IOException ex) {
+                                java.util.logging.Logger.getLogger(GUIController.class.getName()).log(Level.SEVERE, null, ex);
+                            }
                         }
                     });
 
@@ -157,10 +165,7 @@ public class GUIController implements Initializable {
                 catch (InterruptedException ex) {
                     logg.error(ex);
                     logg.fatal(ex);
-                } catch (IOException ex) {
-                    java.util.logging.Logger.getLogger(GUIController.class.getName()).log(Level.SEVERE, null, ex);
                 }
-                throw new UnsupportedOperationException("Not supported yet.");
             }
        
     }
@@ -168,28 +173,29 @@ public class GUIController implements Initializable {
         //Chart titel
         spread_chart.setTitle("Spread Chart");
         //X axis label
-        Spread_YAxis.setLabel("Time");
+        Spread_XAxis.setLabel("Time");
         //X axis properties
         //Show three minutes of data
-        Integer spreadRange = 3*60*1000;
+//        Integer spreadRange = 3*60*1000;
         //Set bounds
-        Spread_XAxis.setLowerBound(new Date().getTime() - spreadRange);
-        Spread_XAxis.setUpperBound(new Date().getTime());
-        Spread_XAxis.setTickUnit(1*60*1000); //tick in minutes
+//        Spread_XAxis.setLowerBound(new Date().getTime() - spreadRange);
+//        Spread_XAxis.setUpperBound(new Date().getTime());
+//        Spread_XAxis.setTickUnit(1*60*1000); //tick in minutes
         //Y axis properties
         Spread_YAxis.setLabel("EUR");
         //Disable auto ranging
-        Spread_XAxis.setAutoRanging(false);
+        Spread_XAxis.setAutoRanging(true);
     }
     public void ChartInitDepth () {
+        
         //Chart titel
         spread_chart.setTitle("Depth Chart");
         //X axis label
         Depth_XAxis.setLabel("EUR per BTC");
         //X axis properties
         //Set bounds
-        Depth_XAxis.setLowerBound(depthXAxisMin);
-        Depth_XAxis.setUpperBound(depthXAxisMax);
+        Depth_XAxis.setLowerBound(dataAll.getMinBidsDepth());
+        Depth_XAxis.setUpperBound(dataAll.getMaxAskDepth());
         Depth_XAxis.setTickUnit(80);
         //Y axis properties
         Depth_YAxis.setLabel("Volume");

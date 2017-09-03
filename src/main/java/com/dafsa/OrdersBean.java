@@ -22,6 +22,38 @@ public class OrdersBean {
     private Double maxAskDepth = null;       
     private Double minBidsDepth = null;
     private Double maxBidsDepth = null; 
+
+    public Double getMinAskDepth() {
+        return minAskDepth;
+    }
+
+    public void setMinAskDepth(Double minAskDepth) {
+        this.minAskDepth = minAskDepth;
+    }
+
+    public Double getMaxAskDepth() {
+        return maxAskDepth;
+    }
+
+    public void setMaxAskDepth(Double maxAskDepth) {
+        this.maxAskDepth = maxAskDepth;
+    }
+
+    public Double getMinBidsDepth() {
+        return minBidsDepth;
+    }
+
+    public void setMinBidsDepth(Double minBidsDepth) {
+        this.minBidsDepth = minBidsDepth;
+    }
+
+    public Double getMaxBidsDepth() {
+        return maxBidsDepth;
+    }
+
+    public void setMaxBidsDepth(Double maxBidsDepth) {
+        this.maxBidsDepth = maxBidsDepth;
+    }
             
     public Series getBuySpreadSeries() {
         return buySpreadSeries;
