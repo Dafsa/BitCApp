@@ -1,118 +1,244 @@
-20:21:14.240 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:36:16.489 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-20:21:14.297 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:36:16.504 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-20:21:15.478 Dafsa-ntb [Thread-4] DEBUG o.k.x.bitstamp.BitstampExchange
+16:36:19.003 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
 				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
-20:21:15.572 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:36:19.212 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- Calling Remote Init... 
-20:21:15.573 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:36:19.212 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
-20:24:09.439 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:40:23.023 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-20:24:09.443 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:40:23.025 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-20:24:09.988 Dafsa-ntb [Thread-4] DEBUG o.k.x.bitstamp.BitstampExchange
+16:40:23.374 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
 				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
-20:24:10.156 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:40:23.422 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- Calling Remote Init... 
-20:24:10.172 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:40:23.423 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
-20:25:44.946 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:40:33.425 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-20:25:44.951 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:40:33.425 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-20:25:45.561 Dafsa-ntb [Thread-4] DEBUG o.k.x.bitstamp.BitstampExchange
+16:40:33.432 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
 				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
-20:25:45.629 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:40:33.434 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- Calling Remote Init... 
-20:25:45.630 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:40:33.434 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
-20:31:50.727 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:40:43.434 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-20:31:50.735 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:40:43.435 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-20:31:51.399 Dafsa-ntb [Thread-4] DEBUG o.k.x.bitstamp.BitstampExchange
+16:40:43.446 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
 				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
-20:31:51.487 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:40:43.448 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- Calling Remote Init... 
-20:31:51.489 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:40:43.448 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
-22:00:47.726 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:40:53.448 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-22:00:47.731 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:40:53.448 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-22:00:48.291 Dafsa-ntb [Thread-4] DEBUG o.k.x.bitstamp.BitstampExchange
+16:40:53.459 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
 				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
-22:00:48.366 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:40:53.460 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- Calling Remote Init... 
-22:00:48.367 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:40:53.461 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
-22:01:26.433 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:41:03.462 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-22:01:26.438 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:41:03.463 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-22:01:27.120 Dafsa-ntb [Thread-4] DEBUG o.k.x.bitstamp.BitstampExchange
+16:41:03.471 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
 				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
-22:01:27.200 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:41:03.473 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- Calling Remote Init... 
-22:01:27.202 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:41:03.473 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
-22:14:19.358 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:41:13.474 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-22:14:19.372 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:41:13.474 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-22:14:20.006 Dafsa-ntb [Thread-4] DEBUG o.k.x.bitstamp.BitstampExchange
+16:41:13.484 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
 				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
-22:14:20.091 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:41:13.486 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- Calling Remote Init... 
-22:14:20.093 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:41:13.487 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
-22:16:02.757 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:41:23.487 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-22:16:02.764 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:41:23.488 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-22:16:03.363 Dafsa-ntb [Thread-4] DEBUG o.k.x.bitstamp.BitstampExchange
+16:41:23.497 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
 				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
-22:16:03.457 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:41:23.498 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- Calling Remote Init... 
-22:16:03.458 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:41:23.499 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
-22:16:16.612 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:41:33.500 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-22:16:16.616 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:41:33.501 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-22:16:31.786 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
-				- Creating default exchange from class name 
-22:16:31.790 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
-				- Creating default exchange from class name 
-22:17:13.796 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
-				- Creating default exchange from class name 
-22:17:13.800 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
-				- Creating default exchange from class name 
-22:17:14.416 Dafsa-ntb [Thread-4] DEBUG o.k.x.bitstamp.BitstampExchange
+16:41:33.513 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
 				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
-22:17:14.481 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:41:33.515 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- Calling Remote Init... 
-22:17:14.482 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:41:33.516 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
-22:19:59.729 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:41:43.517 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-22:19:59.744 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:41:43.517 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-22:20:00.430 Dafsa-ntb [Thread-4] DEBUG o.k.x.bitstamp.BitstampExchange
+16:41:43.526 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
 				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
-22:20:00.533 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:41:43.528 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- Calling Remote Init... 
-22:20:00.535 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:41:43.529 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
-23:05:19.286 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:42:06.073 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-23:05:19.292 Dafsa-ntb [Thread-4] DEBUG org.knowm.xchange.ExchangeFactory
+16:42:06.076 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
 				- Creating default exchange from class name 
-23:05:19.966 Dafsa-ntb [Thread-4] DEBUG o.k.x.bitstamp.BitstampExchange
+16:42:06.421 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
 				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
-23:05:20.052 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:42:06.467 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- Calling Remote Init... 
-23:05:20.054 Dafsa-ntb [Thread-4] INFO  o.k.x.bitstamp.BitstampExchange
+16:42:06.468 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
 				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+16:42:16.470 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+16:42:16.471 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+16:42:16.480 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+16:42:16.481 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+16:42:16.482 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+16:42:56.293 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+16:42:56.296 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+16:42:56.640 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+16:42:56.688 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+16:42:56.689 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+16:43:06.691 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+16:43:06.692 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+16:43:06.703 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+16:43:06.706 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+16:43:06.707 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+18:10:48.876 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:10:48.878 PRAM74 [JavaFX Application Thread] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:10:49.087 PRAM74 [JavaFX Application Thread] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+18:10:49.129 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+18:10:49.130 PRAM74 [JavaFX Application Thread] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+18:31:51.647 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:31:51.649 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:31:51.877 PRAM74 [Thread-5] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+18:31:51.918 PRAM74 [Thread-5] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+18:31:51.919 PRAM74 [Thread-5] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+18:33:32.113 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:33:32.120 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:33:32.742 PRAM74 [Thread-5] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+18:33:32.914 PRAM74 [Thread-5] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+18:33:32.917 PRAM74 [Thread-5] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+18:37:22.088 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:37:22.090 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:37:22.346 PRAM74 [Thread-5] DEBUG o.k.x.bitstamp.BitstampExchange
+				- ExchangeMetaData [currencyPairs={BTC/USD=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], BTC/EUR=CurrencyPairMetaData [tradingFee=0.0025, minimumAmount=0.010000000, maximumAmount=null, priceScale=2], EUR/USD=CurrencyPairMetaData [tradingFee=0.0020, minimumAmount=5.000000000, maximumAmount=null, priceScale=2]}, currencies={BTC=CurrencyMetaData{scale=8}, USD=CurrencyMetaData{scale=2}, EUR=CurrencyMetaData{scale=2}}, publicRateLimits=null, privateRateLimits=[RateLimit [calls=60, timeSpan=0, timeUnit=MINUTES]], shareRateLimits=true] 
+18:37:22.387 PRAM74 [Thread-5] INFO  o.k.x.bitstamp.BitstampExchange
+				- Calling Remote Init... 
+18:37:22.388 PRAM74 [Thread-5] INFO  o.k.x.bitstamp.BitstampExchange
+				- No remote initialization implemented for Bitstamp. The exchange meta data for this exchange is loaded from a json file containing hard-coded exchange meta-data. This may or may not be OK for you, and you should understand exactly how this works. Each exchange can either 1) rely on the hard-coded json file that comes packaged with XChange's jar, 2) provide your own override json file, 3) properly implement the `remoteInit()` method for the exchange (please submit a pull request so the whole community can benefit) or 4) a combination of hard-coded JSON and remote API calls. For more info see: https://github.com/timmolter/XChange/wiki/Design-Notes#exchange-metadata 
+18:39:33.516 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:39:33.518 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:39:33.755 PRAM74 [Thread-5] DEBUG o.k.xchange.kraken.KrakenExchange
+				- ExchangeMetaData [currencyPairs={BTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], LTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], LTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], BTC/LTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=5], BTC/DOGE=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], BTC/XLM=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/XRP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], ETH/BTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=6], ETH/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=1]}, currencies={}, publicRateLimits=[RateLimit [calls=1, timeSpan=6, timeUnit=SECONDS]], privateRateLimits=null, shareRateLimits=false] 
+18:39:33.792 PRAM74 [Thread-5] INFO  o.k.xchange.kraken.KrakenExchange
+				- Calling Remote Init... 
+18:49:11.534 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:49:11.537 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:49:11.781 PRAM74 [Thread-5] DEBUG o.k.xchange.kraken.KrakenExchange
+				- ExchangeMetaData [currencyPairs={BTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], LTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], LTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], BTC/LTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=5], BTC/DOGE=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], BTC/XLM=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/XRP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], ETH/BTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=6], ETH/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=1]}, currencies={}, publicRateLimits=[RateLimit [calls=1, timeSpan=6, timeUnit=SECONDS]], privateRateLimits=null, shareRateLimits=false] 
+18:49:11.818 PRAM74 [Thread-5] INFO  o.k.xchange.kraken.KrakenExchange
+				- Calling Remote Init... 
+18:50:51.222 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:50:51.224 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:50:51.449 PRAM74 [Thread-5] DEBUG o.k.xchange.kraken.KrakenExchange
+				- ExchangeMetaData [currencyPairs={BTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], LTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], LTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], BTC/LTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=5], BTC/DOGE=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], BTC/XLM=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/XRP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], ETH/BTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=6], ETH/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=1]}, currencies={}, publicRateLimits=[RateLimit [calls=1, timeSpan=6, timeUnit=SECONDS]], privateRateLimits=null, shareRateLimits=false] 
+18:50:51.494 PRAM74 [Thread-5] INFO  o.k.xchange.kraken.KrakenExchange
+				- Calling Remote Init... 
+18:51:21.469 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:51:21.471 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:51:21.701 PRAM74 [Thread-5] DEBUG o.k.xchange.kraken.KrakenExchange
+				- ExchangeMetaData [currencyPairs={BTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], LTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], LTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], BTC/LTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=5], BTC/DOGE=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], BTC/XLM=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/XRP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], ETH/BTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=6], ETH/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=1]}, currencies={}, publicRateLimits=[RateLimit [calls=1, timeSpan=6, timeUnit=SECONDS]], privateRateLimits=null, shareRateLimits=false] 
+18:51:21.740 PRAM74 [Thread-5] INFO  o.k.xchange.kraken.KrakenExchange
+				- Calling Remote Init... 
+18:56:10.736 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:56:10.737 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:56:10.979 PRAM74 [Thread-5] DEBUG o.k.xchange.kraken.KrakenExchange
+				- ExchangeMetaData [currencyPairs={BTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], LTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], LTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], BTC/LTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=5], BTC/DOGE=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], BTC/XLM=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/XRP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], ETH/BTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=6], ETH/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=1]}, currencies={}, publicRateLimits=[RateLimit [calls=1, timeSpan=6, timeUnit=SECONDS]], privateRateLimits=null, shareRateLimits=false] 
+18:56:11.018 PRAM74 [Thread-5] INFO  o.k.xchange.kraken.KrakenExchange
+				- Calling Remote Init... 
+18:56:48.108 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:56:48.110 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:56:48.357 PRAM74 [Thread-5] DEBUG o.k.xchange.kraken.KrakenExchange
+				- ExchangeMetaData [currencyPairs={BTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], LTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], LTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], BTC/LTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=5], BTC/DOGE=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], BTC/XLM=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/XRP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], ETH/BTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=6], ETH/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=1]}, currencies={}, publicRateLimits=[RateLimit [calls=1, timeSpan=6, timeUnit=SECONDS]], privateRateLimits=null, shareRateLimits=false] 
+18:56:48.402 PRAM74 [Thread-5] INFO  o.k.xchange.kraken.KrakenExchange
+				- Calling Remote Init... 
+18:58:04.714 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:58:04.716 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:58:04.944 PRAM74 [Thread-5] DEBUG o.k.xchange.kraken.KrakenExchange
+				- ExchangeMetaData [currencyPairs={BTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], LTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], LTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], BTC/LTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=5], BTC/DOGE=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], BTC/XLM=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/XRP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], ETH/BTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=6], ETH/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=1]}, currencies={}, publicRateLimits=[RateLimit [calls=1, timeSpan=6, timeUnit=SECONDS]], privateRateLimits=null, shareRateLimits=false] 
+18:58:04.983 PRAM74 [Thread-5] INFO  o.k.xchange.kraken.KrakenExchange
+				- Calling Remote Init... 
+18:58:46.362 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:58:46.364 PRAM74 [Thread-5] DEBUG org.knowm.xchange.ExchangeFactory
+				- Creating default exchange from class name 
+18:58:46.621 PRAM74 [Thread-5] DEBUG o.k.xchange.kraken.KrakenExchange
+				- ExchangeMetaData [currencyPairs={BTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], LTC/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], LTC/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.100000000, maximumAmount=null, priceScale=5], BTC/LTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=5], BTC/DOGE=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=1], BTC/XLM=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], BTC/XRP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.001000000, maximumAmount=null, priceScale=3], ETH/BTC=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=6], ETH/EUR=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/USD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/CAD=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/GBP=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=5], ETH/JPY=CurrencyPairMetaData [tradingFee=null, minimumAmount=0.050000000, maximumAmount=null, priceScale=1]}, currencies={}, publicRateLimits=[RateLimit [calls=1, timeSpan=6, timeUnit=SECONDS]], privateRateLimits=null, shareRateLimits=false] 
+18:58:46.655 PRAM74 [Thread-5] INFO  o.k.xchange.kraken.KrakenExchange
+				- Calling Remote Init... 

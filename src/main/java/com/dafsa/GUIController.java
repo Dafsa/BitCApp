@@ -19,17 +19,20 @@ import javafx.scene.input.MouseEvent;
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
+import java.util.logging.Level;
 import javafx.application.Platform;
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
+import javafx.scene.chart.XYChart.Series;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import org.knowm.xchange.Exchange;
 import org.knowm.xchange.ExchangeFactory;
+import org.knowm.xchange.bitstamp.service.BitstampMarketDataService;
 import org.knowm.xchange.currency.Currency;
 import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.dto.marketdata.OrderBook;
@@ -96,15 +99,10 @@ public class GUIController implements Initializable {
     //Logger from main App
     static org.apache.logging.log4j.Logger logger = LogManager.getLogger(App.class.getName());
 
-    // TO UPLOAD
-    // depth chart x axis lower limit
-    double depthXAxisMin = 900;
+    // depth chart x axis limits
+    Integer depthXAxisMin = 900;
+    Integer depthXAxisMax = 1500;
     
-    // depth chart x axis upper limit
-    double depthXAxisMax = 1500;
-    
-    // spread interval
-    double spreadInterval = 5*60*1000; // in miliseconds
     /**
      * Initializes the controller class.
      */
@@ -112,57 +110,90 @@ public class GUIController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         
         logger.info("Initializing FMX...");
+        //Initialize Charts
+//        ChartInitSpread();
+//        ChartInitDepth();
         
-        // TO UPLOAD
-        // Customize spread chart
-        spread_chart.setTitle("Spread Chart");
-        Spread_XAxis.setAutoRanging(false);
-        Spread_XAxis.setLowerBound(new Date().getTime() - spreadInterval);
-        Spread_XAxis.setUpperBound(new Date().getTime());
-        Spread_XAxis.setTickUnit(1*60*1000);
-        Spread_YAxis.setLabel("USD");
+        Thread tr = new Thread(new GUIUpdater());
+        tr.start();
+
+       
+    }    
+    
+    
+    class GUIUpdater implements Runnable{
         
-        Spread_XAxis.setAutoRanging(false);
-        
-        // Customize depth chart
-        depth_chart.setTitle("Depth Chart");
-        Depth_XAxis.setAutoRanging(false);
-        Depth_XAxis.setLowerBound(depthXAxisMin);
-        Depth_XAxis.setUpperBound(depthXAxisMax);
-        Depth_XAxis.setTickUnit(50);
-        Depth_XAxis.setLabel("USD per BTC");
-        Depth_YAxis.setLabel("Cummulative volume");
-        
-        Runnable updateOrdersRunnable = new Runnable() {
             @Override
             public void run() {
                 
                 try {
-                    
+                    OrdersBean dataAll = BitCoinService.getSeries();
                     logg.info("Getting new orders....");
                     
-//                    onUpdateOrders(orders);
+                    //Feed charts with data
+                    Platform.runLater(new Runnable(){
+                        @Override
+                        public void run() {
+                            //Clear out charts 
+                            depth_chart.getData().clear();
+                            spread_chart.getData().clear();
+                            
+                            //Depth chart
+                            depth_chart.getData().addAll(dataAll.getBidsDepthSeries(),dataAll.getAskDepthSeries());
+                            
+                            //Spread chart
+                            
+                           spread_chart.getData().addAll(dataAll.getBuySpreadSeries(),dataAll.getSellSpreadSeries());
+                           throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+                        }
+                    });
+
+                    
                     
                     Thread.sleep(1000 * 10);
                     
-                    logg.info("New orders received.");
-                    
+ 
                 } 
-                catch (InterruptedException e) {
-                    logg.error(e);
-                    logg.fatal(e);
+                catch (InterruptedException ex) {
+                    logg.error(ex);
+                    logg.fatal(ex);
+                } catch (IOException ex) {
+                    java.util.logging.Logger.getLogger(GUIController.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 throw new UnsupportedOperationException("Not supported yet.");
             }
-        };
-        
-        Thread ordersThread = new Thread(updateOrdersRunnable);
-        ordersThread.start();          
-    }    
-    public void onUpdateOrders (List<BigDecimal> orders ) {
-
-    //Upudate the chart with JavaFX!!!!!!
-    //TODO David     
-}
-    
+       
+    }
+    public void ChartInitSpread () {
+        //Chart titel
+        spread_chart.setTitle("Spread Chart");
+        //X axis label
+        Spread_YAxis.setLabel("Time");
+        //X axis properties
+        //Show three minutes of data
+        Integer spreadRange = 3*60*1000;
+        //Set bounds
+        Spread_XAxis.setLowerBound(new Date().getTime() - spreadRange);
+        Spread_XAxis.setUpperBound(new Date().getTime());
+        Spread_XAxis.setTickUnit(1*60*1000); //tick in minutes
+        //Y axis properties
+        Spread_YAxis.setLabel("EUR");
+        //Disable auto ranging
+        Spread_XAxis.setAutoRanging(false);
+    }
+    public void ChartInitDepth () {
+        //Chart titel
+        spread_chart.setTitle("Depth Chart");
+        //X axis label
+        Depth_XAxis.setLabel("EUR per BTC");
+        //X axis properties
+        //Set bounds
+        Depth_XAxis.setLowerBound(depthXAxisMin);
+        Depth_XAxis.setUpperBound(depthXAxisMax);
+        Depth_XAxis.setTickUnit(80);
+        //Y axis properties
+        Depth_YAxis.setLabel("Volume");
+        //Disable auto ranging
+        Depth_XAxis.setAutoRanging(false); 
+    }
 }
