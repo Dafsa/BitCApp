@@ -176,15 +176,15 @@ public class GUIController implements Initializable {
         Spread_XAxis.setLabel("Time");
         //X axis properties
         //Show three minutes of data
-//        Integer spreadRange = 3*60*1000;
+        Integer spreadRange = 3*60*1000;
         //Set bounds
-//        Spread_XAxis.setLowerBound(new Date().getTime() - spreadRange);
-//        Spread_XAxis.setUpperBound(new Date().getTime());
-//        Spread_XAxis.setTickUnit(1*60*1000); //tick in minutes
+        Spread_XAxis.setLowerBound(new Date().getTime() - spreadRange);
+        Spread_XAxis.setUpperBound(new Date().getTime());
+        Spread_XAxis.setTickUnit(1*60*1000); //tick in minutes
         //Y axis properties
         Spread_YAxis.setLabel("EUR");
         //Disable auto ranging
-        Spread_XAxis.setAutoRanging(true);
+        Spread_XAxis.setAutoRanging(false);
     }
     public void ChartInitDepth () {
         
