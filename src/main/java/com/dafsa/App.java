@@ -11,7 +11,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import org.apache.log4j.Logger;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;
@@ -19,7 +18,9 @@ import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.chart.AreaChart;
 import javafx.scene.chart.XYChart;
-import javassist.Loader;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  *
@@ -27,7 +28,7 @@ import javassist.Loader;
  */
 public class App extends Application
 {
-    private static final Logger logg = Logger.getLogger(App.class);
+    private static final Logger logg = LogManager.getLogger(App.class);
 
     private static Parent root = null;
     
