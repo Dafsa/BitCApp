@@ -1,14 +1,16 @@
 package com.dafsa;
 
+import static com.sun.javafx.perf.PerformanceTracker.logEvent;
 import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.service.marketdata.MarketDataService;
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import javafx.scene.chart.XYChart;
-import javafx.scene.chart.XYChart.Data;
 import javafx.scene.chart.XYChart.Series;
 import org.knowm.xchange.Exchange;
 import org.knowm.xchange.ExchangeFactory;
@@ -44,19 +46,16 @@ public class BitCoinService {
         buySpreadSeries.setName("Buys");
         
         for(KrakenSpread data : dataSpread.getSpreads()){ 
-            buySpreadSeries.getData().add(new XYChart.Data(data.getTime(),data.getAsk()));
+//            Calendar cal=GregorianCalendar.getInstance();
+//            Long timeInMillis = (Long) data.getTime()*1000;
+//            cal.setTime(new Date(timeInMillis));
+            
+            Date date = new Date(data.getTime()*1000);
+            DateFormat formatter = new SimpleDateFormat("HH:mm:ss");
+            String dateFormatted = formatter.format(date);
+            
+            buySpreadSeries.getData().add(new XYChart.Data(data.getTime()*1000,data.getAsk()));
         }
-        
-        for ( Object dataObject : buySpreadSeries.getData() ) {
-        Calendar cal=GregorianCalendar.getInstance();
-        Data data = (Data) dataObject;
-        Long timeInMillis = (Long) data.getXValue()*1000;  
-        cal.setTime(new Date(timeInMillis));   
-        System.out.println(cal.getTime());
-        }
-        System.out.println(buySpreadSeries.getData());
-        
-        
         
         //Ask series
         final Series sellSpreadSeries = new Series();
