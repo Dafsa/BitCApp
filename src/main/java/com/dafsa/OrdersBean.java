@@ -12,6 +12,8 @@ import javafx.scene.chart.XYChart.Series;
  * @author U37895
  */
 public class OrdersBean {
+
+
     
     private Series buySpreadSeries = null;
     private Series sellSpreadSeries = null;
@@ -22,6 +24,8 @@ public class OrdersBean {
     private Double maxAskDepth = null;       
     private Double minBidsDepth = null;
     private Double maxBidsDepth = null; 
+    private Double minBuySellSpread = null;
+    private Double maxBuySellSpread = null;
 
     public Double getMinAskDepth() {
         return minAskDepth;
@@ -86,6 +90,20 @@ public class OrdersBean {
     public void setAskDepthSeries(Series askDepthSeries) {
         this.askDepthSeries = askDepthSeries;
     }
-    
             
+    public Double getMinBuySellSpread() {
+        return minBuySellSpread;
+    }
+
+    public void setMinBuySellSpread(Double minBuySellSpread) {
+        this.minBuySellSpread = minBuySellSpread;
+    }
+
+    public Double getMaxBuySellSpread() {
+        return maxBuySellSpread;
+    }
+
+    public void setMaxBuySellSpread(Double maxBuySellSpread) {
+        this.maxBuySellSpread = maxBuySellSpread;
+    }
 }

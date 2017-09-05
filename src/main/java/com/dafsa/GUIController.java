@@ -147,22 +147,17 @@ public class GUIController implements Initializable {
     }
     public void ChartInitSpread () {
         //Chart titel
-        spread_chart.setTitle("Spread Chart");
+        spread_chart.setTitle("Bids/Asks chart");
         
         spread_chart.setAnimated(false);
-        //X axis label
-        Spread_XAxis.setLabel("Time");
         //X axis properties
-        //Show three minutes of data
-//        Integer spreadRange = 3*60*1000;
-        //Set bounds
-//        Spread_XAxis.setLowerBound(new Date().getTime() - spreadRange);
-//        Spread_XAxis.setUpperBound(new Date().getTime());
-//        Spread_XAxis.setTickUnit(1*60*1000); //tick in minutes
+        Spread_XAxis.setLabel("Time");
         //Y axis properties
         Spread_YAxis.setLabel("EUR");
+        Spread_YAxis.setLowerBound(dataAll.getMinBuySellSpread()-(dataAll.getMinBuySellSpread()*0.001));
+        Spread_YAxis.setUpperBound(dataAll.getMaxBuySellSpread()+(dataAll.getMaxBuySellSpread()*0.001));
         //Disable auto ranging
-//        Spread_XAxis.setAutoRanging(false);
+        Spread_YAxis.setAutoRanging(false);
     }
     public void ChartInitDepth () {
         

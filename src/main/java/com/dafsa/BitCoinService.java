@@ -1,15 +1,12 @@
 package com.dafsa;
 
-import static com.sun.javafx.perf.PerformanceTracker.logEvent;
 import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.service.marketdata.MarketDataService;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
 import javafx.scene.chart.XYChart;
 import javafx.scene.chart.XYChart.Series;
 import org.knowm.xchange.Exchange;
@@ -94,7 +91,11 @@ public class BitCoinService {
         }
         Integer depthXmin = dataDepth.getBids().stream().map( bid -> bid.getPrice().intValue()).min(Integer::compare).get();
         Integer depthXmax = dataDepth.getAsks().stream().map( bid -> bid.getPrice().intValue()).max(Integer::compare).get();
-        
+        Integer spreadYmin = dataSpread.getSpreads().stream().map( spread -> spread.getAsk().intValue()).min(Integer::compare).get();
+        Integer spreadYmax = dataSpread.getSpreads().stream().map( spread -> spread.getAsk().intValue()).max(Integer::compare).get();
+        //Debug
+        System.out.println(spreadYmin);
+        System.out.println(spreadYmax);
         
         OrdersBean allSeries = new OrdersBean();
         allSeries.setAskDepthSeries(askDepthSeries);
@@ -103,6 +104,9 @@ public class BitCoinService {
         allSeries.setSellSpreadSeries(sellSpreadSeries);
         allSeries.setMinBidsDepth(depthXmin.doubleValue());
         allSeries.setMaxAskDepth(depthXmax.doubleValue());
+        allSeries.setMinBuySellSpread(spreadYmin.doubleValue());
+        allSeries.setMaxBuySellSpread(spreadYmax.doubleValue());
+        
         
         return allSeries;
     }
