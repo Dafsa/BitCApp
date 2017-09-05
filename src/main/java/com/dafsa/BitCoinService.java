@@ -42,7 +42,8 @@ public class BitCoinService {
         KrakenSpreads dataSpread = marketDataServiceRaw.getKrakenSpreads(Currency.BTC, Currency.EUR);
         
        //Bid Series
-        final Series buySpreadSeries = new Series();
+        final Series<String,Double> buySpreadSeries = new Series<String,Double>();
+//        final Series buySpreadSeries = new Series();
         buySpreadSeries.setName("Buys");
         
         for(KrakenSpread data : dataSpread.getSpreads()){ 
@@ -54,14 +55,20 @@ public class BitCoinService {
             DateFormat formatter = new SimpleDateFormat("HH:mm:ss");
             String dateFormatted = formatter.format(date);
             
-            buySpreadSeries.getData().add(new XYChart.Data(data.getTime()*1000,data.getAsk()));
+            buySpreadSeries.getData().add(new XYChart.Data(dateFormatted,data.getAsk()));
         }
         
         //Ask series
-        final Series sellSpreadSeries = new Series();
+        final Series<String,Double> sellSpreadSeries = new Series<String,Double>();
+//        final Series sellSpreadSeries = new Series();
         sellSpreadSeries.setName("Sells");
         for(KrakenSpread data : dataSpread.getSpreads()){
-            sellSpreadSeries.getData().add(new XYChart.Data(data.getTime(),data.getBid()));
+            
+            Date date = new Date(data.getTime()*1000);
+            DateFormat formatter = new SimpleDateFormat("HH:mm:ss");
+            String dateFormatted = formatter.format(date);
+            
+            sellSpreadSeries.getData().add(new XYChart.Data(dateFormatted,data.getBid()));
         }
         
         //Depth chart

@@ -34,7 +34,7 @@
                <children>
                   <LineChart fx:id="spread_chart" layoutX="14.0" layoutY="14.0" prefHeight="466.0" prefWidth="703.0" title="Spread chart" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
                     <xAxis>
-                      <NumberAxis fx:id="Spread_XAxis" side="BOTTOM" />
+                      <CategoryAxis fx:id="Spread_XAxis" side="BOTTOM" />
                     </xAxis>
                     <yAxis>
                       <NumberAxis fx:id="Spread_YAxis" side="LEFT" />

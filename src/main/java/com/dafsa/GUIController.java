@@ -16,7 +16,6 @@ import javafx.scene.chart.AreaChart;
 import javafx.scene.chart.LineChart;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
-import java.util.Date;
 import java.util.logging.Level;
 import javafx.application.Platform;
 import javafx.scene.chart.CategoryAxis;
@@ -46,9 +45,9 @@ public class GUIController implements Initializable {
     @FXML
     private Button Ref_butt_depth;
     @FXML
-    private LineChart<?, ?> spread_chart;
+    private LineChart<String, Number> spread_chart;
     @FXML
-    private NumberAxis Spread_XAxis;
+    private CategoryAxis Spread_XAxis;
     @FXML
     private NumberAxis Spread_YAxis;
     @FXML
