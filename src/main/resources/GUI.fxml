@@ -24,7 +24,6 @@
                     </yAxis>
                   </AreaChart>
                   <Button fx:id="Ex_butt_depth" layoutX="646.0" layoutY="474.0" mnemonicParsing="false" onMouseClicked="#Ex_butt_depth_click" prefHeight="40.0" prefWidth="80.0" text="Exit" />
-                  <Button fx:id="Ref_butt_depth" layoutX="15.0" layoutY="474.0" mnemonicParsing="false" onMouseClicked="#Ref_butt_depth_click" prefHeight="40.0" prefWidth="80.0" text="Refresh" />
                </children></AnchorPane>
       </content>
     </Tab>
@@ -41,8 +40,7 @@
                     </yAxis>
                   </LineChart>
                   <Button fx:id="Ex_butt_spread_click" layoutX="646.0" layoutY="474.0" mnemonicParsing="false" onMouseClicked="#Ex_butt_spread_click" prefHeight="40.0" prefWidth="80.0" text="Exit" />
-                  <Button fx:id="Ref_butt_spread" layoutX="15.0" layoutY="474.0" mnemonicParsing="false" onMouseClicked="#Ref_butt_spread_click" prefHeight="40.0" prefWidth="80.0" text="Refresh" />
-               </children></AnchorPane>
+                </children></AnchorPane>
       </content>
     </Tab>
   </tabs>

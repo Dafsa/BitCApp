@@ -20,6 +20,7 @@ import java.util.logging.Level;
 import javafx.application.Platform;
 import javafx.scene.chart.CategoryAxis;
 import javafx.scene.chart.NumberAxis;
+import javafx.stage.Stage;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -43,8 +44,6 @@ public class GUIController implements Initializable {
     @FXML
     private Button Ex_butt_depth;
     @FXML
-    private Button Ref_butt_depth;
-    @FXML
     private LineChart<String, Number> spread_chart;
     @FXML
     private CategoryAxis Spread_XAxis;
@@ -52,26 +51,22 @@ public class GUIController implements Initializable {
     private NumberAxis Spread_YAxis;
     @FXML
     private Button Ex_butt_spread_click;
-    @FXML
-    private Button Ref_butt_spread;
     
     private OrdersBean dataAll;
     
     //Button handlers
     @FXML
     private void Ex_butt_depth_click(MouseEvent event) {
-    }
-
-    @FXML
-    private void Ref_butt_depth_click(MouseEvent event) {
+    Stage stage = (Stage) Ex_butt_depth.getScene().getWindow();
+    stage.close();
+    System.exit(1);
     }
 
     @FXML
     private void Ex_butt_spread_click(MouseEvent event) {
-    }
-
-    @FXML
-    private void Ref_butt_spread_click(MouseEvent event) {
+    Stage stage = (Stage) Ex_butt_spread_click.getScene().getWindow();
+    stage.close();
+    System.exit(1);
     }
     
     //Logger from main App
@@ -87,12 +82,12 @@ public class GUIController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         
-        logger.info("Initializing FMX...");
+        logger.trace("Initializing FMX...");
 
         //Start a new thread
         Thread tr = new Thread(new GUIUpdater());
         tr.start();
-        logger.info("Starting new thread");
+        logger.trace("Starting new thread");
     }    
     
     class GUIUpdater implements Runnable{
@@ -108,7 +103,7 @@ public class GUIController implements Initializable {
                                 try {
                                     //Get data 
                                     dataAll = BitCoinService.getSeries();
-                                    logg.info("Getting new data....");
+                                    logg.trace("Getting new data....");
                                     
                                     //Initialize Charts
                                     ChartInitSpread();
@@ -124,7 +119,7 @@ public class GUIController implements Initializable {
 
                                     //Spread chart
                                     spread_chart.getData().addAll(dataAll.getBuySpreadSeries(),dataAll.getSellSpreadSeries());
-                                    logg.info("Data updated");
+                                    logg.trace("Data updated");
                                 } catch (IOException ex) {
                                     java.util.logging.Logger.getLogger(GUIController.class.getName()).log(Level.SEVERE, null, ex);
                                 }
@@ -132,7 +127,7 @@ public class GUIController implements Initializable {
                         });
                         //Update each 30 seconds
                         Thread.sleep(1000 * 30);
-                        logg.info("Refreshing...");
+                        logg.trace("Refreshing...");
                     }
                 } 
                 catch (InterruptedException ex) {

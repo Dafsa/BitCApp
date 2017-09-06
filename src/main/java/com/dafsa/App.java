@@ -12,7 +12,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.io.IOException;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -22,8 +21,10 @@ import org.apache.logging.log4j.Logger;
  */
 public class App extends Application
 {
+    //Create logger
     private static final Logger logg = LogManager.getLogger(App.class);
 
+    //Create scene
     private static Parent root = null;
     
     public void start(Stage stage) throws Exception {
@@ -34,7 +35,6 @@ public class App extends Application
         
         stage.setScene(scene);
         stage.show();
-        
     }
 
     /**
@@ -42,11 +42,8 @@ public class App extends Application
      */
     public static void main(String[] args) throws IOException {
         
-        logg.info("Starting BitCApp");
-
+        logg.trace("Starting BitCApp");
         
         launch(args);
-
-
     }
 }
