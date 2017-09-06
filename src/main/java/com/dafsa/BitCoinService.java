@@ -44,9 +44,6 @@ public class BitCoinService {
         buySpreadSeries.setName("Buys");
         
         for(KrakenSpread data : dataSpread.getSpreads()){ 
-//            Calendar cal=GregorianCalendar.getInstance();
-//            Long timeInMillis = (Long) data.getTime()*1000;
-//            cal.setTime(new Date(timeInMillis));
             
             Date date = new Date(data.getTime()*1000);
             DateFormat formatter = new SimpleDateFormat("HH:mm:ss");
@@ -57,7 +54,6 @@ public class BitCoinService {
         
         //Ask series
         final Series<String,Double> sellSpreadSeries = new Series<String,Double>();
-//        final Series sellSpreadSeries = new Series();
         sellSpreadSeries.setName("Sells");
         for(KrakenSpread data : dataSpread.getSpreads()){
             
@@ -93,9 +89,6 @@ public class BitCoinService {
         Integer depthXmax = dataDepth.getAsks().stream().map( bid -> bid.getPrice().intValue()).max(Integer::compare).get();
         Integer spreadYmin = dataSpread.getSpreads().stream().map( spread -> spread.getAsk().intValue()).min(Integer::compare).get();
         Integer spreadYmax = dataSpread.getSpreads().stream().map( spread -> spread.getAsk().intValue()).max(Integer::compare).get();
-        //Debug
-        System.out.println(spreadYmin);
-        System.out.println(spreadYmax);
         
         OrdersBean allSeries = new OrdersBean();
         allSeries.setAskDepthSeries(askDepthSeries);
@@ -106,7 +99,6 @@ public class BitCoinService {
         allSeries.setMaxAskDepth(depthXmax.doubleValue());
         allSeries.setMinBuySellSpread(spreadYmin.doubleValue());
         allSeries.setMaxBuySellSpread(spreadYmax.doubleValue());
-        
         
         return allSeries;
     }

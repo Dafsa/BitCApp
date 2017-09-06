@@ -12,8 +12,6 @@ import javafx.scene.chart.XYChart.Series;
  * @author U37895
  */
 public class OrdersBean {
-
-
     
     private Series buySpreadSeries = null;
     private Series sellSpreadSeries = null;

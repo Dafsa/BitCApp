@@ -89,13 +89,11 @@ public class GUIController implements Initializable {
         
         logger.info("Initializing FMX...");
 
-        
+        //Start a new thread
         Thread tr = new Thread(new GUIUpdater());
         tr.start();
-
-       
+        logger.info("Starting new thread");
     }    
-    
     
     class GUIUpdater implements Runnable{
         
@@ -103,64 +101,61 @@ public class GUIController implements Initializable {
             public void run() {
                 
                 try {
-                    
-                    
-                    Platform.runLater(new Runnable(){
-                        @Override
-                        public void run() {
-                            try {
-                                //Feed charts with data
-                                dataAll = BitCoinService.getSeries();
-                                
-                                //Initialize Charts
-                                ChartInitSpread();
-                                ChartInitDepth();
-                                logg.info("Getting new orders....");
-                                //Clear out charts
-                                depth_chart.getData().clear();
-                                spread_chart.getData().clear();
-                                
-                                //Depth chart
-                                depth_chart.getData().addAll(dataAll.getBidsDepthSeries(),dataAll.getAskDepthSeries());
-                                
-                                //Spread chart
+                    while(true){
+                        Platform.runLater(new Runnable(){
+                            @Override
+                            public void run() {
+                                try {
+                                    //Get data 
+                                    dataAll = BitCoinService.getSeries();
+                                    logg.info("Getting new data....");
+                                    
+                                    //Initialize Charts
+                                    ChartInitSpread();
+                                    ChartInitDepth();
+                                    
+                                    
+                                    //Clear out charts
+                                    depth_chart.getData().clear();
+                                    spread_chart.getData().clear();
 
-                                spread_chart.getData().addAll(dataAll.getBuySpreadSeries(),dataAll.getSellSpreadSeries());
-                            } catch (IOException ex) {
-                                java.util.logging.Logger.getLogger(GUIController.class.getName()).log(Level.SEVERE, null, ex);
+                                    //Depth chart
+                                    depth_chart.getData().addAll(dataAll.getBidsDepthSeries(),dataAll.getAskDepthSeries());
+
+                                    //Spread chart
+                                    spread_chart.getData().addAll(dataAll.getBuySpreadSeries(),dataAll.getSellSpreadSeries());
+                                    logg.info("Data updated");
+                                } catch (IOException ex) {
+                                    java.util.logging.Logger.getLogger(GUIController.class.getName()).log(Level.SEVERE, null, ex);
+                                }
                             }
-                        }
-                    });
-
-                    
-                    
-                    Thread.sleep(1000 * 10);
-                    
- 
+                        });
+                        //Update each 30 seconds
+                        Thread.sleep(1000 * 30);
+                        logg.info("Refreshing...");
+                    }
                 } 
                 catch (InterruptedException ex) {
                     logg.error(ex);
                     logg.fatal(ex);
                 }
             }
-       
     }
     public void ChartInitSpread () {
-        //Chart titel
-        spread_chart.setTitle("Bids/Asks chart");
-        
+        //Chart title
+        spread_chart.setTitle("Bids/Asks chart"); 
         spread_chart.setAnimated(false);
         //X axis properties
         Spread_XAxis.setLabel("Time");
         //Y axis properties
         Spread_YAxis.setLabel("EUR");
+        //Set bounds
         Spread_YAxis.setLowerBound(dataAll.getMinBuySellSpread()-(dataAll.getMinBuySellSpread()*0.001));
         Spread_YAxis.setUpperBound(dataAll.getMaxBuySellSpread()+(dataAll.getMaxBuySellSpread()*0.001));
         //Disable auto ranging
         Spread_YAxis.setAutoRanging(false);
     }
     public void ChartInitDepth () {
-        
         //Chart titel
         spread_chart.setTitle("Depth Chart");
         //X axis label
