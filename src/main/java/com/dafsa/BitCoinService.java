@@ -38,10 +38,10 @@ public class BitCoinService {
         //Spread chart
         KrakenSpreads dataSpread = marketDataServiceRaw.getKrakenSpreads(Currency.BTC, Currency.EUR);
         
-       //Bid Series
+       //Bids Series
         final Series<String,Double> buySpreadSeries = new Series<String,Double>();
 //        final Series buySpreadSeries = new Series();
-        buySpreadSeries.setName("Buys");
+        buySpreadSeries.setName("Bids");
         
         for(KrakenSpread data : dataSpread.getSpreads()){ 
             
@@ -54,7 +54,7 @@ public class BitCoinService {
         
         //Ask series
         final Series<String,Double> sellSpreadSeries = new Series<String,Double>();
-        sellSpreadSeries.setName("Sells");
+        sellSpreadSeries.setName("Asks");
         for(KrakenSpread data : dataSpread.getSpreads()){
             
             Date date = new Date(data.getTime()*1000);
@@ -67,9 +67,9 @@ public class BitCoinService {
         //Depth chart
         KrakenDepth dataDepth = marketDataServiceRaw.getKrakenDepth(CurrencyPair.BTC_EUR, Long.MAX_VALUE);
         
-        //Bids series
+        //Buy series
         final Series bidsDepthSeries = new Series();
-        bidsDepthSeries.setName("Bids");
+        bidsDepthSeries.setName("Buys");
         
         BigDecimal bids = new BigDecimal("0");
         for(KrakenPublicOrder orders: dataDepth.getBids()){
@@ -77,9 +77,9 @@ public class BitCoinService {
             bidsDepthSeries.getData().add(new XYChart.Data(orders.getPrice(),bids));
         }
         
-        //Ask series
+        //Sell series
         final Series askDepthSeries = new Series();
-        askDepthSeries.setName("Asks");       
+        askDepthSeries.setName("Sells");       
         BigDecimal asks = new BigDecimal("0");
         for(KrakenPublicOrder orders: dataDepth.getAsks()){
             asks = asks.add(orders.getVolume());

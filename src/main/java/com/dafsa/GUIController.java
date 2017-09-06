@@ -138,7 +138,7 @@ public class GUIController implements Initializable {
     }
     public void ChartInitSpread () {
         //Chart title
-        spread_chart.setTitle("Bids/Asks chart"); 
+        spread_chart.setTitle("Bids/Asks Chart"); 
         spread_chart.setAnimated(false);
         //X axis properties
         Spread_XAxis.setLabel("Time");
@@ -152,7 +152,7 @@ public class GUIController implements Initializable {
     }
     public void ChartInitDepth () {
         //Chart titel
-        spread_chart.setTitle("Depth Chart");
+        depth_chart.setTitle("Depth Chart");
         //X axis label
         Depth_XAxis.setLabel("EUR per BTC");
         //X axis properties
